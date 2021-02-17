@@ -13,3 +13,28 @@ public class Prime {
 			break;
 				}
 	}
+	package practicep;
+
+public class Factory {
+   int x=10;// instance member variable
+   static int z=90;
+ static void m1()  //class member function
+{
+	System.out.println("hi bindhu");
+}
+ void m2() // instance member function
+ {
+	 System.out.println("hi dhanusha");
+ }
+
+	public static void main(String[] args) {
+		Factory f1 = new Factory(); //  object 
+		System.out.println(f1.x);// x =10
+		System.out.println(z);
+		Factory.m1();
+		f1.m2();
+		
+	} 
+
+}
+	
